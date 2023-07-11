@@ -1,0 +1,33 @@
+.card {
+    display:  flex;
+    flex-direction: column;
+    font-family: Rubik;
+    width: 260px;
+}
+
+.card img{
+    width: 260px;
+    height: 260px;
+}
+
+.card  strong {
+    color: #FFF;
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card p {
+    
+    color: #CCC3C3;
+    text-align: justify;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

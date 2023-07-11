@@ -1,0 +1,36 @@
+main{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 640px;
+}
+
+main > div {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+main div h2{
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+
+}
+
+main > div > div{
+    display:  flex;
+    padding-top: 12px;
+    border-top: 1px solid #6A6363;
+    gap: 27px;
+}
+
+
+
+
