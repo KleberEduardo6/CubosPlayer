@@ -1,0 +1,12 @@
+footer {
+    background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0.00) 100%);
+}
+
+
+.playerMusic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    
+}

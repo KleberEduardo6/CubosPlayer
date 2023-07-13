@@ -1,0 +1,20 @@
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.display div input{
+    width: 560px;
+    height: 4px;
+    background-color: #CCC3C3;
+    margin-bottom: 32px;
+    margin-top: 30px;
+    accent-color: #E5007B;
+    
+}

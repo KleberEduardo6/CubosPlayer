@@ -1,6 +1,7 @@
-import './styles.css';
+import './styles.css';      
 
-export default function cards ( {cover, title, description}){
+export default function cards ( {cover, title, description, url}){
+   
     return (      
             <div className='card'>
                 <img src={cover} alt="Imagem da capa da musica" />

@@ -1,21 +1,21 @@
 import './styles.css';
-import Cards from '../cards/MusicCards';
+import Cards from '../MusicCards'
 import { musics } from '../../musics';
  
  
 export default function Main (){
-    return(
-    
+    return( 
         <main>
             <div>
                 <h2> The best play list</h2>
-                <div>
+                <div >
                     {musics.map((music) =>(   
-                        <Cards 
+                        <Cards
                             key={music.id}
                             cover = {music.cover}
                             title = {music.title}
-                            description = {music.description}        
+                            description = {music.description}
+                            url = {music.url}     
                         />
                     ))}
                 </div>
