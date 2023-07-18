@@ -3,16 +3,16 @@
     import play from '../../assets/play.svg';
     import pause from '../../assets/pause.svg';
     import next from '../../assets/next.svg';
-    import { useState } from 'react';
+    import { useState, useRef } from 'react';
     import { musics } from '../../musics';
     import './styles.css'
   
 
-export default function PlayerMusic({findIndex, handlePlayPause, handleNext, handlePrevious, audioRef, playing, setPlaying}) {
+export default function PlayerMusic({findIndex, setFindIndex, playing, setPlaying}) {
+    const audioRef = useRef(null);
     const [percentageCurrentTime, setpercentageCurrentTime] = useState(0);
     const [durationTime, setDurationTime] = useState(0)
     const [currentTime, setCurrentTime] = useState(0);
-
 
     function handlePlayPause() {
         (playing ? audioRef.current.pause() : audioRef.current.play())  
@@ -25,6 +25,25 @@ export default function PlayerMusic({findIndex, handlePlayPause, handleNext, han
         audioRef.current.currentTime = 0;   
         setPlaying(false);
     }
+
+    function handleNext() {
+        const nextIndex = (( findIndex + 1) % musics.length);
+        setFindIndex(nextIndex);
+        setTimeout(() => {
+            audioRef.current.play();
+            setPlaying(true);
+        }, 1);
+      }
+
+      function handlePrevious() {
+        const previousIndex = ((findIndex - 1 + musics.length) % musics.length )
+        setFindIndex(previousIndex);
+        setTimeout(() => {
+            audioRef.current.play();
+            setPlaying(true);
+        }, 1);
+      }
+    
 
     function handleTimeUpdate() {
         const currentPercentage = (audioRef.current.currentTime /audioRef.current.duration) * 100  
@@ -54,10 +73,10 @@ export default function PlayerMusic({findIndex, handlePlayPause, handleNext, han
                 autoPlay
             />
             <div className='buttons'>
-                <img src={stop} onClick={handleStop} />     
-                <img src={previous} alt="Previous" onClick={handlePrevious} />
-                <img src={playing ? pause : play } onClick={handlePlayPause} />
-                <img src={next} alt="Next" onClick={handleNext} />   
+                <img src={stop} onClick={handleStop} className='stop'/>     
+                <img src={previous} alt="Previous" onClick={handlePrevious} className='previous'/>
+                <img src={playing ? pause : play } onClick={handlePlayPause} className='playPause'/>
+                <img src={next} alt="Next" onClick={handleNext} className='next' />         
             </div>
             <div className='timeBar'>
                 <p>{formatTime(currentTime)}</p>    

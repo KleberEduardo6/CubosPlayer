@@ -15,20 +15,24 @@ main > div {
 
 main div h2{
     color: #FFF;
+   
     font-family: Roboto, sans-serif;
-    font-size: 24px;
+    font-size: 1.875vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 24px;
+   
+    padding-bottom: 2.67vh;
 
 }
 
 main > div > div{
-    display:  flex;
-    padding-top: 12px;
-    border-top: 1px solid #6A6363;
-    gap: 27px;
+    display:  flex;   
+
+    border-top: 0.078125vw solid #6A6363;
+
+    gap: 1.88vw;
+    padding-top: 1.33vh;
 }
 
 

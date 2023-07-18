@@ -1,28 +1,36 @@
 footer {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
 
     background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0.00) 100%);
-    height: 15vh;
-    width: 100%;
-
 }
 
-.titleandArtist{
-    margin: 24px 0px 53px 32px;
+.titleAndArtist{
     justify-self: flex-start;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    right: 20vw;
+    top: -1.5vh;
 }   
 
+.titleAndArtist h2{ 
+    font-size: 1.875vw;
+}
 
+.titleAndArtist {
+    font-size: 1.25vw;
+}
 
 .playerMusic{
     display: flex;
     justify-content: center;       
     align-items: center;
-    align-self: center;
-    justify-self: center;
-
-    padding-top: 16px;
-    
 }

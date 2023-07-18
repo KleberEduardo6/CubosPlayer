@@ -2,31 +2,33 @@
     display:  flex;
     flex-direction: column;
     font-family: Rubik;
-    width: 260px;
+    width: 18.06vw;
 }
 
 .card img{
-    width: 260px;
-    height: 260px;
+    width: 18.06vw;
+    height: 28.89vh;
 }
 
 .card  strong {
     color: #FFF;
     font-family: Rubik, sans-serif;
-    font-size: 20px;
+    font-size: 1.5625vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 8px;
-    padding-bottom: 8px;
+
+    padding-top: 0.89vh;
+    padding-bottom: 0.89vh;
 }
 
 .card p {
     
     color: #CCC3C3;
+    
     text-align: justify;
     font-family: Rubik;
-    font-size: 16px;
+    font-size:  1.25vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

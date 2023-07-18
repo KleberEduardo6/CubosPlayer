@@ -1,36 +1,63 @@
 .display{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .buttons{
     display: flex;
-    gap: 40px;
+    gap: 2.78vw;
     justify-content: center;
+    padding-top: 1.76vh;
 }
+
+.stop{
+    width: 3.33vw;
+    height: 5.33vh;
+}
+
+.previous{
+    width: 3.33vw;
+    height: 5.33vh;
+}
+
+.playPause{
+    width: 4.44vw;
+    height: 7.11vh;
+}
+
+.next{
+    width: 3.33vw;
+    height: 5.33vh;
+}
+
 .timeBar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 32px;
-    margin-top: 30px;
+    margin-top: 2.20vh;
+    margin-bottom: 2vh;
 }
 
 .timeBar p {
     color: #CCC3C3;
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 1vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+ 
 }
 
 .timeBar input{
     display: flex;
     align-items: center;
-    width: 560px;
-    height: 4px;
+    justify-self: end;
+    width: 38.89vw;
+    height: 0.44vh;
     background-color: #CCC3C3;
     accent-color: #E5007B;
-    margin: 0px 8px;
+    margin: 0vh 0.55vh;
 }
+
+
