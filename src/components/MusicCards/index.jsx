@@ -1,12 +1,17 @@
-import './styles.css';      
+import React from 'react';
+import './styles.css';
 
-export default function cards ( {cover, title, description, url}){
-   
-    return (      
-            <div className='card'>
-                <img src={cover} alt="Imagem da capa da musica" />
-                <strong>{title}</strong>
-                <p>{description}</p>
-            </div>
-    )
-}   
+export default function Card({ cover, title, description, onClick, url }) {
+
+  return (
+    <div className="card" onClick={() => onClick(url)}>
+      <img src={cover} alt="Imagem da capa da música" />
+      <strong>{title}</strong>
+      <p>{description}</p>
+    </div>
+  );
+}
+
+
+
+

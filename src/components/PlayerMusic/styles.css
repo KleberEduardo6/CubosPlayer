@@ -8,13 +8,29 @@
     gap: 40px;
     justify-content: center;
 }
+.timeBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-top: 30px;
+}
 
-.display div input{
+.timeBar p {
+    color: #CCC3C3;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.timeBar input{
+    display: flex;
+    align-items: center;
     width: 560px;
     height: 4px;
     background-color: #CCC3C3;
-    margin-bottom: 32px;
-    margin-top: 30px;
     accent-color: #E5007B;
-    
+    margin: 0px 8px;
 }
