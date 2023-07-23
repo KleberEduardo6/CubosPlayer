@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-### Cubos Player
+## Cubos Player
 
 Este é um projeto de um Music Player desenvolvido em React, que permite reproduzir músicas e oferece as seguintes funcionalidades:
 
@@ -17,18 +17,18 @@ Este é um projeto de um Music Player desenvolvido em React, que permite reprodu
 ![](https://i.imgur.com/CO0k0m6.png)
 
 
-### Instalação
+## Instalação
 Siga os passos abaixo para executar o projeto localmente:
 
-Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e instalá-lo no site oficial do Node.js: https://nodejs.org
+- Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e instalá-lo no site oficial do Node.js: https://nodejs.org
 
-Clone este repositório em sua máquina usando o Git:
+- Clone este repositório em sua máquina usando o Git:
 `git clone git@github.com:KleberEduardo6/CubosPlayer.git`
 
-Acesse a pasta do projeto:
+- Acesse a pasta do projeto:
 `cd CubosPlayer`
 
-Instale as dependências do projeto usando o npm:
+- Instale as dependências do projeto usando o npm:
 `npm install`
 
 ## Executando o Projeto
