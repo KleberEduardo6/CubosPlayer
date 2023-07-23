@@ -1,47 +1,51 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Aula prática de React - Cubos Player
+### Cubos Player
 
-Essa aula prática consiste em desenvolver um player de músicas, para isso você usará o layout figma que se encontra nesse [link](https://www.figma.com/file/2RRh9uG0Mjj6p4p6ekVnNp/Cubos-Player?node-id=0%3A1).
+Este é um projeto de um Music Player desenvolvido em React, que permite reproduzir músicas e oferece as seguintes funcionalidades:
 
+- Clicar no card da música para reproduzir a faixa selecionada.
 
-Caso você queira importar o arquivo do figma no seu computador, ele está nessa pasta com o nome `Cubos Player.fig`
+- Botão de "Stop" para interromper a reprodução da música.
 
+- Botão de "Play/Pause" para controlar a pausa e retomar a reprodução da música.
 
-Os detalhes do que você precisará desenvolver está nos vídeos introdutórios da aula...
+- Botões de "Next" e "Previous" para navegar entre as músicas da lista de reprodução.
 
+- Uma barra de tempo que mostra o progresso da música em execução.
 
-... mas o layout que você irá encontrar no figma é esse:
-
-![](https://i.imgur.com/kU1nrcS.png)
-
----
-### Dicas
-Não sabe por onde começar? Que tal começar olhando o que já existe dentro do projeto, após isso pense no projeto final e defina pequenas tarefas para chegar a esse resultado.
-
-No exercício será necessário:
-
-- Criar e manipular estado
-- Criar e manipular referências
-- Utilizar eventos de clique
-- Passar propriedades
-- Importar imagens
-- Executar uma ação várias vezes de tempo em tempo
-- Importar dados do arquivo json
-- Procurar itens
+![](https://i.imgur.com/CO0k0m6.png)
 
 
-As duas aulas anteriores são as mais importantes para você conseguir desenvolver esse projeto.
+### Instalação
+Siga os passos abaixo para executar o projeto localmente:
 
+Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo e instalá-lo no site oficial do Node.js: https://nodejs.org
 
----
+Clone este repositório em sua máquina usando o Git:
+`git clone git@github.com:KleberEduardo6/CubosPlayer.git`
 
-Preencha a checklist para fazer os exercícios:
+Acesse a pasta do projeto:
+`cd CubosPlayer`
+Instale as dependências do projeto usando o npm:
+`npm install`
 
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
+## Executando o Projeto
 
-###### tags: `módulo 3` `front-end` `React`
+Após a instalação das dependências, você pode executar o aplicativo usando o seguinte comando:
+`npm start`
+Isso iniciará o aplicativo.
 
+## Como Usar
+
+Na página inicial do Cubos Player, você verá uma lista de cards de músicas disponíveis.
+
+- Clique em um card de música para iniciar a reprodução da faixa selecionada.
+
+- Use o botão "Play/Pause" para controlar a reprodução da música.
+
+- Use o botão "Stop" para interromper a reprodução da música.
+
+- Utilize os botões "Next" e "Previous" para navegar entre as músicas da lista de reprodução.
+
+- A barra de tempo abaixo do player mostrará o progresso da música em execução, bem como a duração total da faixa.
