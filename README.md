@@ -27,6 +27,7 @@ Clone este repositório em sua máquina usando o Git:
 
 Acesse a pasta do projeto:
 `cd CubosPlayer`
+
 Instale as dependências do projeto usando o npm:
 `npm install`
 
